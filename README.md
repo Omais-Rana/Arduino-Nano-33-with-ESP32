@@ -1,6 +1,6 @@
 # MiniIOT - Real-Time IoT Dashboard
 
-A lightweight, high-performance IoT monitoring system built with Laravel 11 that collects and visualizes real-time sensor data from Arduino Nano 33 IoT and ESP32 microcontrollers via TCP socket connections. Features live Chart.js visualizations with 1-second refresh intervals and automatic device detection.
+A comprehensive IoT data collection and visualization system built with Laravel 12, designed to receive and display real-time data from Arduino Nano 33 IoT and ESP32 devices via TCP connections.
 
 ## 🚀 Features
 
@@ -758,10 +758,7 @@ http://miniiot.test
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-**Project Status:** ✅ Production Ready  
-**Last Updated:** November 1, 2025  
-**Devices Tested:** Arduino Nano 33 IoT (LSM6DS3) + ESP32 (DHT22)  
-**Tech Stack:** Laravel 11 + MySQL + Chart.js + Tailwind CSS + PowerShell  
-**Repository:** [Omais-Rana/Arduino-Nano-33-with-ESP32](https://github.com/Omais-Rana/Arduino-Nano-33-with-ESP32)
+**Last Updated**: September 24, 2025  
+**Status**: Production Ready ✅  
+**Devices**: Arduino Nano 33 IoT + ESP32 with DHT22  
+**Framework**: Laravel 11 + Chart.js + Tailwind CSS
