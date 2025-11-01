@@ -119,8 +119,8 @@
             </div>
 
             <!-- Chart Container -->
-            <div class="h-96">
-                <canvas id="sensorChart"></canvas>
+            <div class="h-[500px]">
+                <canvas id="sensorChart" height="400"></canvas>
             </div>
         </div>
 
@@ -519,7 +519,7 @@
                 autoRefreshInterval = setInterval(function() {
                     updateLiveValues();
                     updateChartData();
-                }, 5000); // Update every 5 seconds
+                }, 1000); // Update every 1 second (matches sensor frequency)
             }
         }
 

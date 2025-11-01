@@ -6,12 +6,12 @@ while ($true) {
     Write-Host "Processing logs at $timestamp..." -ForegroundColor Yellow
     
     try {
-        & php artisan iot:process-logs
-        Write-Host "✓ Log processing completed" -ForegroundColor Green
+        php artisan iot:process-logs
+        Write-Host "Log processing completed" -ForegroundColor Green
     }
     catch {
-        Write-Host "✗ Error processing logs: $($_.Exception.Message)" -ForegroundColor Red
+        Write-Host "Error processing logs" -ForegroundColor Red
     }
     
-    Start-Sleep -Seconds 10
+    Start-Sleep -Seconds 1
 }
